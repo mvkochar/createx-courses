@@ -1,0 +1,114 @@
+.courses-main {
+    margin-top: 80px;
+    padding-top: 19px;
+    padding-bottom: 120px;
+    padding-left: 345px;
+    padding-right: 345px;
+    background: url("/public/images/courses-main-bg.png") no-repeat;
+    
+    &-undertitle {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #1E212C;
+    }
+
+    &-title {
+        margin-top: 8px;
+        font-weight: 900;
+        font-size: 46px;
+        line-height: 130%;
+        color: #1E212C;
+        text-align: center;
+    }
+
+    &-actions  {
+        margin-top: 60px;
+    }
+
+    &-tabs {
+        gap: 12px;
+    }
+
+    .main-tabs-btn {
+        display: block;
+        background-color: transparent;
+        border: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        color: #9A9CA5;
+        cursor: pointer;
+    }
+
+    .tabs-btn__active {
+        border: 1px solid #FF3F3A;
+        border-radius: 4px;
+        color: #FF3F3A;
+    }
+
+    &-search {
+        width: 315px;
+        padding-top: 11px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        gap: 45px;
+
+        input {
+            display: block;
+            width: 70%;
+            border: 0;
+            outline: 0;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: #9A9CA5;
+        }
+    
+        button {
+            display: block;
+            margin-top: 2px;
+            background-color: transparent;
+            border: 0;
+            cursor: pointer;       
+        }
+    }
+
+    &-box {
+        margin-top: 60px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    &-more {
+        width: fit-content;
+        margin: 80px auto;
+        margin-bottom: 0;
+        gap: 16px;
+
+        button {
+            display: block;
+            background-color: transparent;
+            border: 0;
+            cursor: pointer;
+        }
+    }
+
+    .main-more-title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        color: #424551;
+    }
+ 
+}

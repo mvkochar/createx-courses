@@ -1,0 +1,89 @@
+.blog-card {
+    &-main {
+        position: relative;
+    }
+
+    &-type {
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 27px;
+        padding-right: 8px;
+        border: 1px solid #FFFFFF;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #424551;
+        position: absolute;
+        top: 12px;
+        left: 12px;
+    }
+
+    &-info {
+        margin-top: 16px;
+        gap: 12px;
+        font-size: 14px;
+        line-height: 150%;
+        color: #787A80;
+    }
+
+    &-category,
+    &-date {
+        padding-right: 12px;
+    }
+
+    &-date,
+    &-time {
+        padding-left: 28px;
+        font-weight: 400;
+    }
+
+    &-category {
+        border-right: 1px solid #787A80;
+        font-weight: 700;
+    }
+
+    &-date {
+        background: url("/public/images/calendar.png") no-repeat;   
+    }
+
+    &-time {
+        background: url("/public/images/clock.png") no-repeat;
+    }
+
+    &-title {
+        margin-top: 8px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        color: #1E212C;
+    }
+
+    &-desc {
+        margin-top: 8px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: #424551;
+    }
+
+    &-action {
+        margin-top: 16px;
+        gap: 11px;
+
+        .card-action-title {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 160%;
+            color: #1E212C;
+        }
+
+        button {
+            display: block;
+            margin-top: 3px;
+            background-color: transparent;
+            border: 0;
+            cursor: pointer;
+        }
+    }
+}

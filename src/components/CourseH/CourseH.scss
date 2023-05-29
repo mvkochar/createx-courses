@@ -1,0 +1,48 @@
+.course-h {
+    width: 600px;
+    height: 214px;
+    gap: 32px;
+    padding-bottom: 0;
+    border: 1px solid #E5E8ED;
+    border-radius: 4px;
+    box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
+    box-sizing: border-box;
+    &-cat {
+        width: fit-content;
+        padding: 1px 8px;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    &-title {
+        width: 325px;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        color: #1E212C;
+    }
+
+    &-info {
+        margin-top: 20px;
+        gap: 8px;
+    }
+
+    &-price {
+        padding-right: 8px;
+        border-right: 1px solid #787A80;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        color: #FF4242;
+    }
+
+    &-author {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #787A80;
+    }
+}

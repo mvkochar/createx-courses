@@ -1,0 +1,44 @@
+.course-v {
+  width: 390px;
+  padding-bottom: 24px;
+  box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+}
+.course-v-cat {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 24px;
+  margin-left: 24px;
+  padding: 1px 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.course-v-title {
+  margin-top: 20px;
+  margin-left: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+}
+.course-v-info {
+  margin-top: 20px;
+  margin-left: 24px;
+  gap: 8px;
+}
+.course-v-price {
+  padding-right: 8px;
+  border-right: 1px solid #787A80;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FF4242;
+}
+.course-v-author {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #787A80;
+}/*# sourceMappingURL=CourseV.css.map */
