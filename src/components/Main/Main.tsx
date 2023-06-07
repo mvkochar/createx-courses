@@ -7,7 +7,13 @@ import About from '../../pages/About'
 import Blog from '../../pages/Blog'
 import Contacts from '../../pages/Contacts'
 
-const Main = () => {
+type MainProps = {
+    singleCourse: boolean
+    courseId : number
+    showSingleCourse: (courseId: number) => void 
+}
+
+const Main = ({singleCourse, courseId, showSingleCourse}: MainProps) => {
   return (
     <Routes>
       <Route
@@ -16,7 +22,7 @@ const Main = () => {
       />
       <Route
         path='courses'
-        element={<Courses/>}
+        element={<Courses singleCourse = {singleCourse} courseId={courseId} showSingleCourse={showSingleCourse} />}
       />
       <Route
         path='events'

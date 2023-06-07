@@ -199,7 +199,7 @@ const Home = () => {
               <div className="events-item-title">How to apply methods of speculative design in practice. World building prototyping.</div>
               <div className="events-item-cat">Online lecture</div>
             </div>
-            <button className='events-item-btn'>Online workshop</button>
+            <button className='events-item-btn'>View more</button>
           </div>
         </div>
         <div className="createx-events-more d-f">
